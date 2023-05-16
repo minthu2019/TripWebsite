@@ -31,8 +31,8 @@ const Home = () => {
  
         <div className="homeCard grid">
 
-          <div data-aos="fade-right" data-aos-duration="2000" className="locationDiv">
-            <label htmlFor="location"> Location</label>
+          <div  className="locationDiv">
+            <label data-aos="fade-right" data-aos-duration="2000" htmlFor="location"> Location</label>
             <input type="text" placeholder='Dream Destination'/>
           </div>
 
